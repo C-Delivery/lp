@@ -1,119 +1,139 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+<!doctype html>
+<html lang="jn">
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>デリバリー配達</title>
-  </head>
-  <body>
-    <header>
-      <div class="header__inner-wrap ">
-        <img
-          src="https://i.ibb.co/Wnbn0SX/C-logo.png"
-          alt="chuo_logo"
-          class="header__logo"
-        />
-        <h1 class="header__title">デリバリー配達</h1>
-      </div>
-    </header>
-    <div class="content">
-      <div class="content__about-service content-section">
-        <h2 class="border-bottom">デリバリー配達について</h2>
-        <p>昼休みの混雑を軽減させたい。その思いでサービスをはじめました。</p>
-        <p>本団体は、本大学の学生による運営されています。</p>
-      </div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-      <div class="content__time-table content-section">
-        <h2 class="border-bottom">配達時間帯</h2>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">1限目</th>
-              <th scope="col">2限目</th>
-              <th scope="col">3限目</th>
-              <th scope="col">4限目</th>
-              <th scope="col">5限目</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">月</th>
-              <td>×</td>
-              <td>○</td>
-              <td>×</td>
-              <td>×</td>
-              <td>×</td>
-            </tr>
-            <tr>
-              <th scope="row">火</th>
-              <td>×</td>
-              <td>○</td>
-              <td>×</td>
-              <td>×</td>
-              <td>×</td>
-            </tr>
-            <tr>
-              <th scope="row">水</th>
-              <td>定休日</td>
-              <td>定休日</td>
-              <td>定休日</td>
-              <td>定休日</td>
-              <td>定休日</td>
-            </tr>
-            <tr>
-              <th scope="row">木</th>
-              <td>×</td>
-              <td>○</td>
-              <td>×</td>
-              <td>×</td>
-              <td>×</td>
-            </tr>
-            <tr>
-              <th scope="row">金</th>
-              <td>定休日</td>
-              <td>定休日</td>
-              <td>定休日</td>
-              <td>定休日</td>
-              <td>定休日</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="content__about-me content-section">
-        <h2 class="border-bottom">運営者について</h2>
-        <p>本大学の学部生２年です。運営兼配達員をしています。</p>
-      </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+
+  <style>
+    body {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      color: #6c7279;
+    }
+
+
+    li {
+      color: #fff;
+      list-style-type: none;
+      float: left;
+      padding: 0px 20px 0px 20px;
+    }
+
+    ul {
+      padding: 20px 0px;
+    }
+
+    header {
+      width: 90%;
+      max-width: 1170px;
+      text-align: center;
+      height: 110px;
+      margin: 0 auto;
+      padding: 20px 0px;
+      font-family: sans-serif;
+      transition: padding 0.3s;
+    }
+
+    .main {
+      width: 90%;
+      max-width: 1170px;
+      text-align: center;
+      margin: 0 auto;
+      font-family: sans-serif;
+      transition: padding 0.3s;
+      padding-top: 50px;
+      display: flex;
+    }
+
+    h3 {
+      color: #fff;
+      font-family: "Roboto", sans-serif;
+      font-weight: 100;
+      line-height: 48px;
+      margin-bottom: 5%;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+    }
+
+    p {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      margin-bottom: 7%;
+    }
+
+    div {
+      display: block;
+    }
+  </style>
+
+</head>
+
+<body class="bg-primary">
+  <header id="header">
+    <div class="header-content clearfix">
+      <a class="logo" href="#">
+        <img src="assets/LOGO.png" width="80" height="77" alt="" class=" float-left">
+
+      </a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav float-right">
+          <li>HOME</li>
+          <li>OVERVIEW</li>
+          <li>FEATURES</li>
+          <li>SCREENSHOTS</li>
+          <li>DOWNLOAD</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </header>
+
+  <div class="main">
+    <div class="col-md-5 col-sm-12 d-flex ">
+      <img class="banner-img " src="assets/app-screen.png">
+    </div>
+
+    <div class="col-md-7 col-sm-12 d-flex ">
+      <div class="banner-text">
+        <h3>Beautiful and Elegant App Landing <br>Page for Startup business</h3>
+        <p>Amazing, clean and modern landing page temple for showcase your mobile application <br>to the world. Best
+          Start
+          Up for Your New App</p>
+        <div class="banner-btn">
+          <a herf="assets/qr_code.png">
+            <img src="assets/qr_code.png " width="150" height="147">
+          </a>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+<stylesheet></stylesheet>
+
 </html>
