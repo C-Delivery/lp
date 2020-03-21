@@ -7,7 +7,7 @@
         class="mb-5"
       >
       <blockquote class="blockquote">
-       <v-btn color="purple lighten-1" large>お問い合わせ</v-btn>
+       <v-btn color="purple lighten-1" large>お問い合わせaaa</v-btn>
         <footer>
           <small>
             <em>&mdash;John Johnson</em>
