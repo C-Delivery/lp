@@ -15,11 +15,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-<<<<<<< HEAD
-      { rel: 'icon', type: 'image/x-icon', href: '/lp/favicon.ico' }
-=======
       { rel: 'icon', type: 'image/x-icon', href: baseRoute(process.env.DEPLOY_ENV) + 'favicon.ico' }
->>>>>>> nuxt を githubpages に対応
     ]
   },
   /*
@@ -70,11 +66,7 @@ export default {
     }
   },
   router: {
-<<<<<<< HEAD
-    base: '/lp/'
-=======
     base: baseRoute(process.env.DEPLOY_ENV)
->>>>>>> nuxt を githubpages に対応
   },
   /*
   ** Build configuration
