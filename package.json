@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "DEPLOY_ENV=GH_PAGES nuxt generate",
-    "deploy": "yarn generate && gh-pages -d dist && rm -rf dist"
+    "deploy": "gh-pages -d dist && rm -rf dist"
   },
   "dependencies": {
     "gh-pages": "^2.2.0",
