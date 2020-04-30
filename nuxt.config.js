@@ -14,7 +14,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/lp/favicon.ico' }
     ]
   },
   /*
@@ -64,6 +64,9 @@ export default {
       }
     }
   },
+  router: {
+    base: '/lp/'
+  },
   /*
   ** Build configuration
   */
@@ -71,7 +74,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   }
 }
